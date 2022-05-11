@@ -1,0 +1,118 @@
+/**
+ * @name 3 Comfy
+ * @version (2.2.1) 1.0
+ * @description nice, simple, not too dark and colourful
+ * @author Nyria modified by Antyk
+**/
+
+/* 
+for setting help contact me Antykwd#0001
+should be bug free, as long you don't combine with other themes externally
+*/
+
+ /*theme packages*/
+/* main do not remove :( */
+@import url("https://nyri4.github.io/Comfy/betterdiscord/main.css");
+
+/* radial status */
+@import url('https://discordstyles.github.io/RadialStatus/dist/RadialStatus.css');
+
+/* discolored */
+@import url("https://nyri4.github.io/Discolored/main.css");
+@import url('https://nyri4.github.io/donators/donators.css');
+
+/* misc */
+@import url("https://nyri4.github.io/Comfy/betterdiscord/no-scrollbar.css");
+@import url("https://nyri4.github.io/Comfy/betterdiscord/better-spotify.css");
+
+
+:root {
+
+ /*radial status settings*/
+ --rs-small-spacing: 0px;
+ --rs-medium-spacing: 0px;
+ --rs-large-spacing: 1x;
+ --rs-small-width: 2px;
+ --rs-medium-width: 4px;
+ --rs-large-width: 4px;
+ --rs-avatar-shape: 10%;
+ --rs-online-color: #27b632;
+ --rs-idle-color: #faa61a;
+ --rs-dnd-color: #f04747;
+ --rs-offline-color: #636b75;
+ --rs-streaming-color: #643da7;
+ --rs-invisible-color: #1f1e1e;
+ --rs-phone-color: #4a9965;
+ --rs-phone-visible: none;
+
+ /*comfy settings*/
+ --disable-animations: 2s channel-unread infinite;
+
+ --status-background: url('https://i.imgur.com/sKV54PO.jpeg');
+
+ --user-buttons-spacing: 8px;
+ --user-buttons-color: #096DC0;
+
+ --avatar-radius: 5px;  
+ --status-radius: 5px; 
+ --server-radius: 5px;
+ --colored-emoji: grayscale(0%);
+
+ --mention-color: rgba(255, 13, 13, 0.7);
+ --unread-color: rgba(9, 99, 21, 0.7);
+
+ --mention-color-bar: #00000000;
+ --mention-color-background: rgba(255, 106, 0, 0.1);
+ --mention-color-hover: rgba(255, 105, 0, 0.05);
+ --chat-buttons: #7289DA;
+
+ --spotify-color: #1EDC62;
+ --online: #43B581;
+ --iddle: #FAA61A;
+ --dnd: #F04747;
+ --offline: #747F8D;
+ --streaming: #593695;
+ --playing: #7289da;
+ --listening: #1db653;
+ --role-circle: 5px;
+ --discord-logo: block;
+
+}
+
+.theme-dark {
+    --background-primary: #23283D;
+    --background-secondary: #1E2233;
+    --background-secondary-alt: #191F2E;
+    --background-tertiary: #101320;
+    --background-mobile-primary: #23283D;
+    --background-mobile-secondary: #1E2233;
+    --channeltextarea-background: #191F2E;
+    --background-accent: #7289DA;
+    --background-message-hover: transparent;
+    --background-modifier-hover: #00000010;
+    --background-modifier-active: #0000001a;
+    --background-modifier-selected: #0000001f;
+    --deprecated-card-bg: #12141F63;
+    --background-floating: #101320;
+    --deprecated-quickswitcher-input-background:#101320;
+    --elevation-low: none;
+    --scrollbar-auto-thumb: #121722;
+    --scrollbar-auto-track: #191F2E;
+    --scrollbar-thin-thumb: #141925;
+    --activity-card-background: #101320;
+}
+
+.theme-light {
+    --background-primary: #23283D;
+    --background-secondary: #1E2233;
+    --background-secondary-alt: #191F2E;
+    --background-tertiary: #101320;
+    --background-accent: #7289DA;
+    --background-modifier-hover: #262B41;
+    --background-modifier-active: #262B41;
+    --header-primary: #FFF;
+    --header-secondary: #B1B5B9;
+    --text-normal: #8E9297;
+    
+}
+
