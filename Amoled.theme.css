@@ -1,0 +1,94 @@
+/**
+ * @name AMOLED-Mode
+ * @version  1.14
+ * @description orange and blue, dark, nice to your eyes
+ * @author Antyk
+**/
+
+/* 
+original Github release 29.12.2021, will maintain itself (hopefully lol)
+last maintance: 11.05.2022
+copyright 2021-2022 Antykwd - unofficial theme, please do not distribute
+->should be bug free, as long you don't combine with other themes externally!
+*/
+
+ /*theme packs*/
+/* main do not remove :( */
+@import url("https://luckfire.github.io/amoled-cord/src/support/compiled.css");
+
+/* discolored */
+@import url("https://nyri4.github.io/Discolored/main.css");
+
+/* bottom horizontal server list */
+@import url("https://discordstyles.github.io/HorizontalServerList/dist/HorizontalServerList.css");
+@import url("https://discordstyles.github.io/Addons/bottomhsl.css");
+
+/* radial status */
+@import url("https://discordstyles.github.io/RadialStatus/dist/RadialStatus.css");
+
+
+:root {
+  
+ /*settings*/
+  --HSL-server-icon-size: 47px;
+  --HSL-server-spacing: 5px;
+  --HSL-server-direction: column;
+  --rs-small-spacing: 0px;
+  --rs-medium-spacing: 1px;
+  --rs-large-spacing: 1px;
+  --rs-small-width: 2px;
+  --rs-medium-width: 4px;
+  --rs-large-width: 4px;
+  --rs-avatar-shape: 50%;
+  --rs-online-color: #37b632;
+  --rs-idle-color: #faa61a;
+  --rs-dnd-color: #f04747;
+  --rs-offline-color: #636b75;
+  --rs-streaming-color: #643da7;
+  --rs-invisible-color: #1f1e1e;
+  --rs-phone-color: #4a9965 ;
+  --rs-phone-visible: none;
+
+  --blurple-replace: #7289DA;
+  --background-primary: #080808;
+  --background-secondary: #050505;
+  --background-secondary-alt: #0f0f0f;
+  --background-tertiary: #080808;
+  --background-accent: #0f0f0f;
+  --background-floating: #000000;
+  --userarea-background: var(--background-tertiary);
+  --header-primary: #dfdbff;
+  --header-secondary: #b8d3ffe6;
+  --elevation-low: 0 1px 0 #28283233, 0 1.5px 0 #3c3c460d, 0 2px 0 #2828320d;
+  --elevation-high: 0 8px 16px #0000003d;
+  --channels-default: #d26721;
+  --channeltextarea-background: #191919;
+  --guild-header-text-shadow: 0 1px 1px #00000066;
+  --activity-card-background: #0f0f0f;
+  --interactive-normal: #b6d3ff;
+  --interactive-hover: #c85000b3;
+  --interactive-active: #6269cf;
+  --interactive-muted: #4b4b4b;
+  --background-modifier-hover: #32323229;
+  --background-modifier-active: #3232323d;
+  --background-modifier-selected: #32323252;
+  --background-modifier-accent: #ffffff0f;
+  --text-link: #005cdd;
+  --text-normal: #b6d3ff;
+  --text-muted: #969696;
+  --deprecated-panel-background: #292b2f;
+  --deprecated-card-bg: #20222599;
+  --deprecated-card-editable-bg: #2022254d;
+  --deprecated-store-bg: #36393f;
+  --deprecated-quickswitcher-input-background: #72767d;
+  --deprecated-quickswitcher-input-placeholder: #ffffff4d;
+  --deprecated-text-input-bg: #0000001a;
+  --deprecated-text-input-border: #0000004d;
+  --deprecated-text-input-border-hover: #040405;
+  --deprecated-text-input-border-disabled: #202225;
+  --deprecated-text-input-prefix: #b6d3ff;
+  --background-accent-1: #0f0f0f1a;
+  --background-accent-3: #0f0f0f4d;
+  --background-floating-2: #00000033;
+    
+}
