@@ -1,4 +1,3 @@
-/*edit timestamp*/
 .timestamp-p1Df1m:not(.timestampInline-_lS3aK, .timestampVisibleOnHover-9PEuZS) time::after {
         content: " (" attr(aria-label) ")";
         color: var(--text-muted);
@@ -11,12 +10,10 @@
     display: none;
 }
 
-/*rounded context menu*/
 .menu-1QACrS, .colorDefault-CDqZdO { 
     border-radius: 10px; 
 }
 
-/*jump to present button*/
 [class*="jumpToPresentBar"] {
     display: contents;
 }
@@ -60,7 +57,6 @@
     margin-left: -6px;
 }
 
-/*better BD toasts*/
 .bd-toast {
     background-color: var(--background-tertiary) !important;
     border-radius: 32px;
@@ -85,7 +81,6 @@
     padding-left: 35px !important;
 }
 
-/*loading gif*/
 span[class="inner-26JK4f"]:after {
     background-image: url('https://c.tenor.com/wpSo-8CrXqUAAAAi/loading-loading-forever.gif');
     background-size: cover;
@@ -98,7 +93,6 @@ span[class="inner-26JK4f"] > *{
     display: none;
 }
 
-/*Spotify cover go weee*/
 .assetsLargeImageSpotify-17ME3M {
   animation: spin 5s linear infinite;
   border-radius: 50%
@@ -111,4 +105,3 @@ span[class="inner-26JK4f"] > *{
     transform: rotate(360deg);
   }
 }
-
