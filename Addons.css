@@ -70,7 +70,7 @@
     font-weight: normal !important;
 }
 .bd-toast.toast-success.icon {
-    background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjEuMjg0ODUgMy40NjkyNCAyMS44MzYzNTAwMDAwMDAwMDMgMTcuNjUyMTYwMDAwMDAwMDAyIj4KICA8cGF0aCBkPSJNOS4wMDA0MyAxNC4wNDkyTDE5LjU5MDQgMy40NjkyNEwyMy4xMjEyIDcuMDAwMDZMOC45OTk5MyAyMS4xMjE0TDEuMjg0ODUgMTMuNDA2M0w0LjgzMzY3IDkuODgyNDhMOS4wMDA0MyAxNC4wNDkyWiIgZmlsbD0iIzNCQTU1QyIvPgo8L3N2Zz4=") !important;
+ background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjEuMjg0ODUgMy40NjkyNCAyMS44MzYzNTAwMDAwMDAwMDMgMTcuNjUyMTYwMDAwMDAwMDAyIj4KICA8cGF0aCBkPSJNOS4wMDA0MyAxNC4wNDkyTDE5LjU5MDQgMy40NjkyNEwyMy4xMjEyIDcuMDAwMDZMOC45OTk5MyAyMS4xMjE0TDEuMjg0ODUgMTMuNDA2M0w0LjgzMzY3IDkuODgyNDhMOS4wMDA0MyAxNC4wNDkyWiIgZmlsbD0iIzNCQTU1QyIvPgo8L3N2Zz4=") !important;
 }
 .bd-toast.icon {
     padding-left: 30px !important;
