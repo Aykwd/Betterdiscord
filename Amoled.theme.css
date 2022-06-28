@@ -1,18 +1,16 @@
 /**
- * @name AMOLED-Mode
- * @version 1.14
- * @description orange and blue, dark, nice to your eyes
- * @author Antyk
+ * @name 0 Amoly
+ * @version 1.15
+ * @description still very experimental theme, orange and blue, dark, nice to your eyes
+ * @author Antyk#0001
 **/
-
-/* 
+/*
 original Github release 29.12.2021, will maintain itself (hopefully lol)
 last maintance: 11.05.2022
 copyright 2021-2022 Antykwd - unofficial theme, please do not distribute
 ->should be bug free, as long you don't combine with other themes externally!
 */
 
- /*theme packs*/
 /* main do not remove :( */
 @import url("https://luckfire.github.io/amoled-cord/src/support/compiled.css");
 
@@ -25,6 +23,9 @@ copyright 2021-2022 Antykwd - unofficial theme, please do not distribute
 
 /* radial status */
 @import url("https://discordstyles.github.io/RadialStatus/dist/RadialStatus.css");
+
+/* addons */
+@import url("https://raw.githubusercontent.com/Aykwd/Betterdiscord/main/Addons.css");
 
 
 :root {
@@ -44,7 +45,7 @@ copyright 2021-2022 Antykwd - unofficial theme, please do not distribute
   --rs-idle-color: #faa61a;
   --rs-dnd-color: #f04747;
   --rs-offline-color: #636b75;
-  --rs-streaming-color: #643da7;
+  --rs-streaming-color: #3044f7;
   --rs-invisible-color: #1f1e1e;
   --rs-phone-color: #4a9965 ;
   --rs-phone-visible: none;
