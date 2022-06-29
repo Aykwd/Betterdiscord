@@ -4,6 +4,7 @@
  * @description still very experimental theme, orange and blue, dark, nice to your eyes
  * @author Antyk#0001
 **/
+
 /*
 original Github release 29.12.2021, will maintain itself (hopefully lol)
 last maintance: 11.05.2022
@@ -23,9 +24,6 @@ copyright 2021-2022 Antykwd - unofficial theme, please do not distribute
 
 /* radial status */
 @import url("https://discordstyles.github.io/RadialStatus/dist/RadialStatus.css");
-
-/* addons */
-@import url("https://raw.githubusercontent.com/Aykwd/Betterdiscord/main/addons.css");
 
 
 :root {
