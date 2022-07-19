@@ -1,5 +1,5 @@
 /**
- * @name 0 Amoly
+ * @name 1 Amoly
  * @version 1.15
  * @description still very experimental theme, orange and blue, dark, nice to your eyes
  * @author Antyk#0001
@@ -60,12 +60,12 @@ copyright 2021-2022 Antykwd - unofficial theme, please do not distribute
   --header-secondary: #b8d3ffe6;
   --elevation-low: 0 1px 0 #28283233, 0 1.5px 0 #3c3c460d, 0 2px 0 #2828320d;
   --elevation-high: 0 8px 16px #0000003d;
-  --channels-default: #d26721;
+  --channels-default: #ff7700;
   --channeltextarea-background: #191919;
   --guild-header-text-shadow: 0 1px 1px #00000066;
   --activity-card-background: #0f0f0f;
   --interactive-normal: #b6d3ff;
-  --interactive-hover: #c85000b3;
+  --interactive-hover: #d06100d1;
   --interactive-active: #6269cf;
   --interactive-muted: #4b4b4b;
   --background-modifier-hover: #32323229;
