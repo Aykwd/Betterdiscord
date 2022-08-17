@@ -1,13 +1,13 @@
 /**
  * @name Amoly
- * @version 1.16
- * @description still very experimental theme, orange and blue, dark, nice to your eyes
+ * @version 16.2.1
+ * @description Orange and blue, dark, nice to your eyes - yeah
  * @author Antyk#0001
 **/
 
 /*
-original Github release 29.12.2021, will maintain itself (hopefully lol)
-last maintance: 07.08.2022
+original Github release 29.12.2021, will maintain itself (hopefully lol) 
+last maintance: 17.08.2022
 copyright 2021-2022 Antykwd - unofficial theme, please do not distribute
 ->should be bug free, as long you don't combine with other themes externally!
 */
@@ -28,7 +28,7 @@ copyright 2021-2022 Antykwd - unofficial theme, please do not distribute
 
 :root {
   
- /*settings*/
+ /*settings, if you don't know any of this cry about it or just play around with the variables*/
   --HSL-server-icon-size: 47px;
   --HSL-server-spacing: 5px;
   --HSL-server-direction: column;
