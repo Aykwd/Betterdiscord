@@ -1,22 +1,32 @@
 /**
  * @name Addons
  * @version 6.2.1
- * @description Adds features to your BD please READ the fucking code
- * @author Antyk
+ * @description FIXED! Adds features to your BD please READ the fucking code
+ * @author Antyk#0001
 **/
-/*
-HOW DO I DISABLE A FUNCTION???
 
-you can:
--comment the code snipplet paragraph by putting the code in a comment /* <code paragraph in here> */
--or simply erase the code paragraph bruh
-*/
+/*what is the crashing issue?*/
+@import url(https://maendisease.github.io/BetterDiscordStuff/css/wellThisIsAwkwardSoTryThis.css);
 
 /*themes settings at the top*/
-.bd-sidebar-header, 
-[aria-controls="themes-tab"], 
-[aria-controls="themes-tab"] + .separator-2wx7h6{
+.side-2ur1Qk>:where(.bd-sidebar-header,.bd-customcss-tab,.bd-themes-tab,.pluginrepo-tab,.themerepo-tab,:where(.bd-themes-tab,.pluginrepo-tab,.themerepo-tab)+.separator-2wx7h6){
   order: -1;
+}
+
+/*guild bounce when mentioned*/
+:root {
+    --bounce-height: 4px;
+}
+.full-motion .listItem-3SmSlK.bd-guild.bd-badge .pill-2RsI5Q.bd-unread:not(.bd-selected) + div:not([class])  {
+    animation-name: unreadguildbounce; 
+    animation-delay: 3s;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+}
+@keyframes unreadguildbounce {
+   0%, 20%, 50%, 80%, 100% {transform: translateY(0);} 
+   40% {transform: translateY(calc(var(--bounce-height) * -1));} 
+   60% {transform: translateY(calc(var(--bounce-height) * -.5));} 
 }
 
 /*grid view BD*/
@@ -313,7 +323,6 @@ span[class="inner-26JK4f"] > *{
   margin-left: -6px;
 }
 
-
 /*Spotify covers go wheee*/
 .assetsLargeImageSpotify-17ME3M {
 animation: spin 5s linear infinite;
@@ -330,16 +339,16 @@ to {
 
 /*context menu animations*/
 .menu-1QACrS, .emojiPicker-6YCk8a, .browser-mnQ1T7, .messagesPopoutWrap-3zryHW, .wrapper-1NB3WY, .container-3u7RcY, .container-2o3qEW, .container-2ebMPP, .userPopout-2j1gM4 {
-  animation: custom-menu-animation 200ms ease;
-  transform-origin: top;
+    animation: custom-menu-animation 200ms ease;
+    transform-origin: top;
 }
 @keyframes custom-menu-animation {
-  0% {
-      transform: scaleY(0);
-  }
-  100% {
-      transform: scaleY(1);
-  }
+    0% {
+        transform: scaleY(0);
+    }
+    100% {
+        transform: scaleY(1);
+    }
 }
 
 /*hidden VC panel*/
@@ -348,4 +357,68 @@ to {
     overflow: hidden;
     height: 0;
     min-height: 0
+}
+
+/*old hypesquad color*/
+img[src$="9f00b18e292e10fc0ae84ff5332e8b0b.svg"],img[src$="ec8e92568a7c8f19a052ef42f862ff18.svg"],img[src$="efcc751513ec434ea4275ecda4f61136.svg"]{filter:brightness(0) saturate(100%) invert(68%) sepia(93%) saturate(364%) hue-rotate(342deg) brightness(101%) contrast(97%);}
+
+/*nicer role colors*/
+.role-2TIOKu {
+    transform: translate(0);
+    overflow: hidden;
+
+    --transparency: 0.05;
+    border-radius: 5px;
+}
+.role-2TIOKu .roleRemoveIcon-387wKV {
+    margin: 0;
+    left: unset;
+    transform: translate(50%,-50%);
+}
+.role-2TIOKu .roleRemoveButton-17oXnT {
+    position: static;
+}
+.role-2TIOKu .roleCircle-3K9O3d:before {
+    content: '';
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: inherit;
+    opacity: var(--transparency);
+}
+
+/*channel names capitalized*/
+.channelName-3KPsGw {
+text-transform: capitalize;
+}
+
+/*better BD toasts*/
+.bd-toast {
+    background-color: var(--background-tertiary) !important;
+    border-radius: 32px;
+    margin-bottom: 12px;
+    line-height: 24px;
+    padding: 16px !important;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    font-size: 16px !important;
+    font-weight: normal !important;
+}
+
+.bd-toast.toast-success.icon {
+    background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjEuMjg0ODUgMy40NjkyNCAyMS44MzYzNTAwMDAwMDAwMDMgMTcuNjUyMTYwMDAwMDAwMDAyIj4KICA8cGF0aCBkPSJNOS4wMDA0MyAxNC4wNDkyTDE5LjU5MDQgMy40NjkyNEwyMy4xMjEyIDcuMDAwMDZMOC45OTk5MyAyMS4xMjE0TDEuMjg0ODUgMTMuNDA2M0w0LjgzMzY3IDkuODgyNDhMOS4wMDA0MyAxNC4wNDkyWiIgZmlsbD0iIzNCQTU1QyIvPgo8L3N2Zz4=") !important;
+}
+
+.bd-toast.icon {
+    padding-left: 30px !important;
+}
+
+.bd-toast.toast-danger.icon,
+.bd-toast.toast-error.icon {
+    background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjcgMTAgNiA2Ij4KICA8cGF0aCBkPSJNIDEyIDEwIEwgMTMgMTEgTCAxMSAxMyBMIDEzIDE1IEwgMTIgMTYgTCAxMCAxNCBMIDggMTYgTCA3IDE1IEwgOSAxMyBMIDcgMTEgTCA4IDEwIEwgMTAgMTIgWiIgZmlsbD0iI2YwNDc0NyIvPgo8L3N2Zz4=") !important;
+    padding-left: 35px !important;
 }
