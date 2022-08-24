@@ -1,5 +1,5 @@
 /**
- * @name 0 Addons
+ * @name Addons
  * @version 6.2.1
  * @description FIXED² Adds features to your BD please READ the fucking code
  * @author Antyk#0001
@@ -336,7 +336,7 @@ to {
 }
 
 /*context menu animations*/
-.menu-1QACrS, .emojiPicker-6YCk8a, .browser-mnQ1T7, .messagesPopoutWrap-3zryHW, .wrapper-1NB3WY, .container-3u7RcY, .container-2o3qEW, .container-2ebMPP, .userPopout-2j1gM4 {
+.menu-1QACrS, .emojiPicker-6YCk8a, .browser-mnQ1T7, .messagesPopoutWrap-3zryHW, .wrapper-1NB3WY, .container-3u7RcY, .container-2ebMPP, .userPopout-2j1gM4 {
     animation: custom-menu-animation 200ms ease;
     transform-origin: top;
 }
