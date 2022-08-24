@@ -1,12 +1,10 @@
 /**
- * @name Addons
+ * @name 0 Addons
  * @version 6.2.1
- * @description FIXED! Adds features to your BD please READ the fucking code
- * @author Antyk#0001
+ * @description FIXED² Adds features to your BD please READ the fucking code
+ * @author Antyk
 **/
 
-/*what is the crashing issue?*/
-@import url(https://maendisease.github.io/BetterDiscordStuff/css/wellThisIsAwkwardSoTryThis.css);
 
 /*themes settings at the top*/
 .side-2ur1Qk>:where(.bd-sidebar-header,.bd-customcss-tab,.bd-themes-tab,.pluginrepo-tab,.themerepo-tab,:where(.bd-themes-tab,.pluginrepo-tab,.themerepo-tab)+.separator-2wx7h6){
@@ -408,15 +406,12 @@ text-transform: capitalize;
     font-size: 16px !important;
     font-weight: normal !important;
 }
-
 .bd-toast.toast-success.icon {
     background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjEuMjg0ODUgMy40NjkyNCAyMS44MzYzNTAwMDAwMDAwMDMgMTcuNjUyMTYwMDAwMDAwMDAyIj4KICA8cGF0aCBkPSJNOS4wMDA0MyAxNC4wNDkyTDE5LjU5MDQgMy40NjkyNEwyMy4xMjEyIDcuMDAwMDZMOC45OTk5MyAyMS4xMjE0TDEuMjg0ODUgMTMuNDA2M0w0LjgzMzY3IDkuODgyNDhMOS4wMDA0MyAxNC4wNDkyWiIgZmlsbD0iIzNCQTU1QyIvPgo8L3N2Zz4=") !important;
 }
-
 .bd-toast.icon {
     padding-left: 30px !important;
 }
-
 .bd-toast.toast-danger.icon,
 .bd-toast.toast-error.icon {
     background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjcgMTAgNiA2Ij4KICA8cGF0aCBkPSJNIDEyIDEwIEwgMTMgMTEgTCAxMSAxMyBMIDEzIDE1IEwgMTIgMTYgTCAxMCAxNCBMIDggMTYgTCA3IDE1IEwgOSAxMyBMIDcgMTEgTCA4IDEwIEwgMTAgMTIgWiIgZmlsbD0iI2YwNDc0NyIvPgo8L3N2Zz4=") !important;
