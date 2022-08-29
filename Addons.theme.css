@@ -1,10 +1,10 @@
 /**
- * @name Addons
+ * @name 0 Addons
  * @version 6.2.1
  * @description Adds features to your BD please READ the fucking code
  * @author Antyk
+ * @website https://github.com/Aykwd/Betterdiscord/blob/main/Addons.theme.css
 **/
-
 
 /*themes settings at the top*/
 .side-2ur1Qk>:where(.bd-sidebar-header,.bd-customcss-tab,.bd-themes-tab,.pluginrepo-tab,.themerepo-tab,:where(.bd-themes-tab,.themerepo-tab)+.separator-2wx7h6){
@@ -416,4 +416,9 @@ img[src$="9f00b18e292e10fc0ae84ff5332e8b0b.svg"],img[src$="ec8e92568a7c8f19a052e
 /*channel names capitalized*/
 .channelName-3KPsGw {
 text-transform: capitalize;
+}
+
+/*no invite button*/
+.submenuContainer-3EVTeH {
+    display: none;
 }
