@@ -224,7 +224,7 @@
 }
 .container-2RRFHK .ready-3BZNWT {
     position: absolute;
-    bottom: 44px;
+    bottom: 45px;
     right: 244px;
     z-index: 1;
 }
@@ -235,7 +235,7 @@
 }
 .container-2RRFHK .problems-CvGwpb {
     padding: 8px 16px;
-    bottom: 75px;
+    bottom: 45px;
     left: unset;
     right: 18px;
     width:fit-content;
@@ -418,7 +418,3 @@ img[src$="9f00b18e292e10fc0ae84ff5332e8b0b.svg"],img[src$="ec8e92568a7c8f19a052e
 text-transform: capitalize;
 }
 
-/*no invite button*/
-.submenuContainer-3EVTeH {
-    display: none;
-}
